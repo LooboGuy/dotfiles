@@ -15,7 +15,7 @@ Sätt att göra installation av conf-filer på ny burk
 
 TL;DR
 
-´´´
+```
 cd ~
 git clone https://github.com/LooboGuy/dotfiles.git
 sudo apt install stow
