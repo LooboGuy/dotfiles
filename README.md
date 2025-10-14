@@ -10,7 +10,7 @@ Sätt att göra installation av conf-filer på ny burk
   
   2. Symlänka filerna. Använd "stow"
        apt install stow
-       
+       cd ~/dotfiles
        stow <applikation>
 
 TL;DR
@@ -19,6 +19,7 @@ TL;DR
 cd ~
 git clone https://github.com/LooboGuy/dotfiles.git
 sudo apt install stow
+cd ~/dotfiles
 stow nvim
 stow kitty
 ```
